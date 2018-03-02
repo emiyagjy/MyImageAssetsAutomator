@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainViewController" customModule="MyImageAssetsAutomator" customModuleProvider="target">
+            <connections>
+                <outlet property="dropImageView" destination="KRD-js-lwd" id="2AO-8v-pNB"/>
+                <outlet property="pathField" destination="NLV-96-Dma" id="laf-SP-Kas"/>
+                <outlet property="platformSelection" destination="489-pa-B1D" id="rnR-dj-HFU"/>
+                <outlet property="titleLabel" destination="4Hw-7p-cU3" id="BN5-UN-XhH"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="500" height="399"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Hw-7p-cU3">
+                    <rect key="frame" x="-2" y="344" width="504" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Pna-EA-JvY"/>
+                        <constraint firstAttribute="width" constant="500" id="fGb-BC-iYT"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" id="heB-d5-cWn">
+                        <font key="font" metaFont="system" size="20"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c7D-cc-hgj">
+                    <rect key="frame" x="398" y="55" width="94" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="选取路径" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Aqn-ub-lRC">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="selectButtonAction:" target="-2" id="wRI-wK-1aL"/>
+                    </connections>
+                </button>
+                <comboBox verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="489-pa-B1D">
+                    <rect key="frame" x="213" y="103" width="140" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="请选择" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="BRs-qN-Wuh">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <objectValues>
+                            <string>iPhone</string>
+                            <string>iPad</string>
+                            <string>Mac OS X</string>
+                        </objectValues>
+                    </comboBoxCell>
+                </comboBox>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QY0-Yq-sbP">
+                    <rect key="frame" x="136" y="103" width="71" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="平台" id="MVY-fH-IET">
+                        <font key="font" size="18" name=".PingFangSC-Regular"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KRD-js-lwd" customClass="DropImageView" customModule="MyImageAssetsAutomator" customModuleProvider="target">
+                    <rect key="frame" x="150" y="136" width="200" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="3DQ-Nh-cXI"/>
+                </imageView>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NLV-96-Dma">
+                    <rect key="frame" x="40" y="56" width="356" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="zp7-Mz-WPv">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MXr-l2-Efg">
+                    <rect key="frame" x="192" y="13" width="116" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="生成" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="f2J-bz-VN9">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="generateAction:" target="-2" id="mkP-QZ-D9D"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4Hw-7p-cU3" secondAttribute="trailing" id="7nE-Oa-qac"/>
+                <constraint firstItem="4Hw-7p-cU3" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="CH2-UR-bxm"/>
+                <constraint firstAttribute="trailing" secondItem="4Hw-7p-cU3" secondAttribute="trailing" id="jY6-9y-iUO"/>
+                <constraint firstAttribute="trailing" secondItem="4Hw-7p-cU3" secondAttribute="trailing" id="x1c-xJ-c8a"/>
+                <constraint firstItem="4Hw-7p-cU3" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" id="ynQ-xE-48s"/>
+            </constraints>
+            <point key="canvasLocation" x="-133" y="76.5"/>
+        </customView>
+    </objects>
+</document>

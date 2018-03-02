@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>App Store_1024</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{1024,1024}</string>
+			<key>Name</key>
+			<string>icon-1024</string>
+			<key>Size</key>
+			<string>1024x1024</string>
+		</dict>
+		<key>iPhone Settings Spotlight_58</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{58,58}</string>
+			<key>Name</key>
+			<string>icon-Small@2x</string>
+			<key>Size</key>
+			<string>29x29</string>
+		</dict>
+		<key>iPhone Settings Spotlight_87</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{87,87}</string>
+			<key>Name</key>
+			<string>icon-Small@3x</string>
+			<key>Size</key>
+			<string>29x29</string>
+		</dict>
+		<key>iPhone Spotlight_80</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{80,80}</string>
+			<key>Name</key>
+			<string>icon-Small-40@2x</string>
+			<key>Size</key>
+			<string>40x40</string>
+		</dict>
+		<key>iPhone Spotlight_120</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{120,120}</string>
+			<key>Name</key>
+			<string>icon-Small-40@3x</string>
+			<key>Size</key>
+			<string>40x40</string>
+		</dict>
+		<key>iPhone App_120</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{120,120}</string>
+			<key>Name</key>
+			<string>icon-60@2x</string>
+			<key>Size</key>
+			<string>60x60</string>
+		</dict>
+		<key>iPhone App_180</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{180,180}</string>
+			<key>Name</key>
+			<string>icon-60@3x</string>
+			<key>Size</key>
+			<string>60x60</string>
+		</dict>
+		<key>iPhone Notification_40</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{40,40}</string>
+			<key>Name</key>
+			<string>icon-20@2x</string>
+			<key>Size</key>
+			<string>20x20</string>
+		</dict>
+		<key>iPhone Notification_60</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{60,60}</string>
+			<key>Name</key>
+			<string>icon-20@3x</string>
+			<key>Size</key>
+			<string>20x20</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>App Store_1024</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{1024,1024}</string>
+			<key>Name</key>
+			<string>icon-1024</string>
+			<key>Size</key>
+			<string>1024x1024</string>
+		</dict>
+		<key>iPhone Notification Non-Retina</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{20,20}</string>
+			<key>Name</key>
+			<string>icon-20</string>
+			<key>Size</key>
+			<string>20x20</string>
+		</dict>
+		<key>iPhone Notification Retina</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{40,40}</string>
+			<key>Name</key>
+			<string>icon-20@2x</string>
+			<key>Size</key>
+			<string>20x20</string>
+		</dict>
+		<key>iPad Setting Non-Retina</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{29,29}</string>
+			<key>Name</key>
+			<string>icon-Small</string>
+			<key>Size</key>
+			<string>29x29</string>
+		</dict>
+		<key>iPad Setting Retina</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{58,58}</string>
+			<key>Name</key>
+			<string>icon-Small@2x</string>
+			<key>Size</key>
+			<string>29x29</string>
+		</dict>
+		<key>iPad Spotlight Retina</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{80,80}</string>
+			<key>Name</key>
+			<string>icon-Small-40@2x</string>
+			<key>Size</key>
+			<string>40x40</string>
+		</dict>
+		<key>iPad Spotlight Non-Retina</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{40,40}</string>
+			<key>Name</key>
+			<string>icon-Small-40</string>
+			<key>Size</key>
+			<string>40x40</string>
+		</dict>
+		<key>iPad Retina</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{152,152}</string>
+			<key>Name</key>
+			<string>icon-76@2x</string>
+			<key>Size</key>
+			<string>76x76</string>
+		</dict>
+		<key>iPad Non-Retina</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{76,76}</string>
+			<key>Name</key>
+			<string>icon-76</string>
+			<key>Size</key>
+			<string>76x76</string>
+		</dict>
+		<key>iPad Pro Retina</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{167,167}</string>
+			<key>Name</key>
+			<string>icon-83.5@2x</string>
+			<key>Size</key>
+			<string>83.5x83.5</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>Mac Non-Retina Small</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{16,16}</string>
+			<key>Name</key>
+			<string>icon_16x16</string>
+			<key>Size</key>
+			<string>16x16</string>
+		</dict>
+		<key>Mac Retina Small</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{32,32}</string>
+			<key>Name</key>
+			<string>icon_16x16@2x</string>
+			<key>Size</key>
+			<string>16x16</string>
+		</dict>
+		<key>Mac Non-Retina Medium</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{32,32}</string>
+			<key>Name</key>
+			<string>icon_32x32</string>
+			<key>Size</key>
+			<string>32x32</string>
+		</dict>
+		<key>Mac Retina Medium</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{64,64}</string>
+			<key>Name</key>
+			<string>icon_32x32@2x</string>
+			<key>Size</key>
+			<string>32x32</string>
+		</dict>
+		<key>Mac Non-Retina Icon</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{128,128}</string>
+			<key>Name</key>
+			<string>icon_128x128</string>
+			<key>Size</key>
+			<string>128x128</string>
+		</dict>
+		<key>Mac Retina Icon</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{256,256}</string>
+			<key>Name</key>
+			<string>icon_128x128@2x</string>
+			<key>Size</key>
+			<string>128x128</string>
+		</dict>
+		<key>Mac Retina Icon Big</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{256,256}</string>
+			<key>Name</key>
+			<string>icon_256x256</string>
+			<key>Size</key>
+			<string>256x256</string>
+		</dict>
+		<key>Mac Non-Retina Big</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{512,512}</string>
+			<key>Name</key>
+			<string>icon_256x256@2x</string>
+			<key>Size</key>
+			<string>256x256</string>
+		</dict>
+		<key>Mac Non-Retina Large</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{512,512}</string>
+			<key>Name</key>
+			<string>icon_512x512</string>
+			<key>Size</key>
+			<string>512x512</string>
+		</dict>
+		<key>Mac Retina Large</key>
+		<dict>
+			<key>Dimensions</key>
+			<string>{1024,1024}</string>
+			<key>Name</key>
+			<string>icon_512x512@2x</string>
+			<key>Size</key>
+			<string>512x512</string>
+		</dict>
+	</dict>
+</array>
+</plist>
