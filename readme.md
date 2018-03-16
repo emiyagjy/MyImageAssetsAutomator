@@ -14,16 +14,16 @@
 ## 正文
 
  接下来就简单的说明如何实现的，先上张App截图。
-![mypic1]({{site.url}}/img/postsimgs/2018-03-01-pic1.png)
+![mypic1](http://emiyagjy.github.io/img/postsimgs/2018-03-01-pic1.png)
 
  不同平台的AppIcon安装图标
-![mypic1]({{site.url}}/img/postsimgs/2018-03-01-pic2.png)
-![mypic1]({{site.url}}/img/postsimgs/2018-03-01-pic3.png)
+![mypic1](http://emiyagjy.github.io/img/postsimgs/2018-03-01-pic2.png)
+![mypic1](http://emiyagjy.github.io/img/postsimgs/2018-03-01-pic3.png)
  
  每个App项目下面都会有一个 AppIcon.appiconset 文件夹，文件夹下有一个json文件和png图片，而我这个小工具主要的功能就是生成这个 AppIcon.appiconset
  
  Contents.json 文件如下
-![mypic1]({{site.url}}/img/postsimgs/2018-03-01-pic4.png)
+![mypic1](http://emiyagjy.github.io/img/postsimgs/2018-03-01-pic4.png)
 
  这里的 idiom 表示不同的系统平台 iPhone、iPad、Mac。
 
